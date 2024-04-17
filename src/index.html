@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ChatGPT Clone in JavaScript | CodingNepal</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="output.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="flex justify-between px-[156px] items-center ">
+      <!-- Left -->
+      <img class="w-[50px] h-[50px] object-cover" src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1713225600&semt=ais" alt=""/>
+      <div class="px-10 text-white">Documents</div>
+      <!-- Middle -->
+      <input placeholder="Search bar" class="border border-gray-300 rounded-lg w-full p-2" />
+      <!-- Right -->
+      <div class="px-10 text-white">Login</div>
+      <div class="text-white">Register</div>
+    </header>
+    <!-- Chats container -->
+    <div class="flex pt-10">
+    <div class="flex-1 border-r border-solid border-white">
+      <div class="flex justify-center text-white">Câu hỏi</div>
+    </div>
+    <div class="chat-container flex-[3] pl-12"></div>
+    
+    <!-- Typing container -->
+    <div class="typing-container">
+      <div class="typing-content">
+        <div class="typing-textarea">
+          <textarea id="chat-input" spellcheck="false" placeholder="Enter a prompt here" required></textarea>
+          <span id="send-btn" class="material-symbols-rounded">send</span>
+        </div>
+        <div class="typing-controls">
+          <span id="theme-btn" class="material-symbols-rounded">light_mode</span>
+          <span id="delete-btn" class="material-symbols-rounded">delete</span>
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>
